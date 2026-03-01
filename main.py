@@ -1,4 +1,7 @@
 
 import weather
 import news
-print("sistem başarıyla sonlandırıldı")
+
+print(weather.get_info())
+print(news.get_info())
+print("Sistem başarıyla sonlandırıldı.")
